@@ -1,0 +1,12 @@
+name = "RP2040"
+uuid = "b1135902-6728-43a1-a48d-363a4ed5783e"
+authors = ["Sukera <Seelengrab@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+FieldFlags = "3debba03-e216-4816-844a-cb4454e272d5"
+MCUCommon = "455ac959-662e-47bc-a1c5-e582af05f21d"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+
+[compat]
+MCUCommon = "0.1.5"
