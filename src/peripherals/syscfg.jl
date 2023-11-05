@@ -21,7 +21,7 @@ using ..SYSCFG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000000
 @regdef struct PROC0_NMI_MASKStruct(regAddress)
-	_:32
+	PROC0_NMI_MASK:32
 end
 const Reg = PROC0_NMI_MASKStruct
 
@@ -41,7 +41,7 @@ using ..SYSCFG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000004
 @regdef struct PROC1_NMI_MASKStruct(regAddress)
-	_:32
+	PROC1_NMI_MASK:32
 end
 const Reg = PROC1_NMI_MASKStruct
 

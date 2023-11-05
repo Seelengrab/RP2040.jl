@@ -178,7 +178,7 @@ using ..XIP_CTRL: baseAddress
 
 const regAddress = baseAddress + 0x000000000000000c
 @regdef struct CTR_HITStruct(regAddress)
-	_:32
+	CTR_HIT:32
 end
 const Reg = CTR_HITStruct
 
@@ -202,7 +202,7 @@ using ..XIP_CTRL: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000010
 @regdef struct CTR_ACCStruct(regAddress)
-	_:32
+	CTR_ACC:32
 end
 const Reg = CTR_ACCStruct
 
@@ -296,7 +296,7 @@ using ..XIP_CTRL: baseAddress
 
 const regAddress = baseAddress + 0x000000000000001c
 @regdef struct STREAM_FIFOStruct(regAddress)
-	_:32
+	STREAM_FIFO:32
 end
 const Reg = STREAM_FIFOStruct
 

@@ -128,7 +128,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000008
 @regdef struct CLK_GPOUT0_SELECTEDStruct(regAddress)
-	_:32
+	CLK_GPOUT0_SELECTED:32
 end
 const Reg = CLK_GPOUT0_SELECTEDStruct
 
@@ -255,7 +255,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000014
 @regdef struct CLK_GPOUT1_SELECTEDStruct(regAddress)
-	_:32
+	CLK_GPOUT1_SELECTED:32
 end
 const Reg = CLK_GPOUT1_SELECTEDStruct
 
@@ -382,7 +382,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000020
 @regdef struct CLK_GPOUT2_SELECTEDStruct(regAddress)
-	_:32
+	CLK_GPOUT2_SELECTED:32
 end
 const Reg = CLK_GPOUT2_SELECTEDStruct
 
@@ -509,7 +509,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x000000000000002c
 @regdef struct CLK_GPOUT3_SELECTEDStruct(regAddress)
-	_:32
+	CLK_GPOUT3_SELECTED:32
 end
 const Reg = CLK_GPOUT3_SELECTEDStruct
 
@@ -591,7 +591,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000038
 @regdef struct CLK_REF_SELECTEDStruct(regAddress)
-	_:32
+	CLK_REF_SELECTED:32
 end
 const Reg = CLK_REF_SELECTEDStruct
 
@@ -679,7 +679,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000044
 @regdef struct CLK_SYS_SELECTEDStruct(regAddress)
-	_:32
+	CLK_SYS_SELECTED:32
 end
 const Reg = CLK_SYS_SELECTEDStruct
 
@@ -743,7 +743,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000050
 @regdef struct CLK_PERI_SELECTEDStruct(regAddress)
-	_:32
+	CLK_PERI_SELECTED:32
 end
 const Reg = CLK_PERI_SELECTEDStruct
 
@@ -856,7 +856,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x000000000000005c
 @regdef struct CLK_USB_SELECTEDStruct(regAddress)
-	_:32
+	CLK_USB_SELECTED:32
 end
 const Reg = CLK_USB_SELECTEDStruct
 
@@ -969,7 +969,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000068
 @regdef struct CLK_ADC_SELECTEDStruct(regAddress)
-	_:32
+	CLK_ADC_SELECTED:32
 end
 const Reg = CLK_ADC_SELECTEDStruct
 
@@ -1088,7 +1088,7 @@ using ..CLOCKS: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000074
 @regdef struct CLK_RTC_SELECTEDStruct(regAddress)
-	_:32
+	CLK_RTC_SELECTED:32
 end
 const Reg = CLK_RTC_SELECTEDStruct
 

@@ -119,7 +119,7 @@ using ..XOSC: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000008
 @regdef struct DORMANTStruct(regAddress)
-	_:32
+	DORMANT:32
 end
 const Reg = DORMANTStruct
 

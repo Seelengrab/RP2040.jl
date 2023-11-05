@@ -149,7 +149,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x000000000000000c
 @regdef struct SCRATCH0Struct(regAddress)
-	_:32
+	SCRATCH0:32
 end
 const Reg = SCRATCH0Struct
 
@@ -167,7 +167,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000010
 @regdef struct SCRATCH1Struct(regAddress)
-	_:32
+	SCRATCH1:32
 end
 const Reg = SCRATCH1Struct
 
@@ -185,7 +185,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000014
 @regdef struct SCRATCH2Struct(regAddress)
-	_:32
+	SCRATCH2:32
 end
 const Reg = SCRATCH2Struct
 
@@ -203,7 +203,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000018
 @regdef struct SCRATCH3Struct(regAddress)
-	_:32
+	SCRATCH3:32
 end
 const Reg = SCRATCH3Struct
 
@@ -221,7 +221,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x000000000000001c
 @regdef struct SCRATCH4Struct(regAddress)
-	_:32
+	SCRATCH4:32
 end
 const Reg = SCRATCH4Struct
 
@@ -239,7 +239,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000020
 @regdef struct SCRATCH5Struct(regAddress)
-	_:32
+	SCRATCH5:32
 end
 const Reg = SCRATCH5Struct
 
@@ -257,7 +257,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000024
 @regdef struct SCRATCH6Struct(regAddress)
-	_:32
+	SCRATCH6:32
 end
 const Reg = SCRATCH6Struct
 
@@ -275,7 +275,7 @@ using ..WATCHDOG: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000028
 @regdef struct SCRATCH7Struct(regAddress)
-	_:32
+	SCRATCH7:32
 end
 const Reg = SCRATCH7Struct
 

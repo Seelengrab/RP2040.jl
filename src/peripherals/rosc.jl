@@ -217,7 +217,7 @@ using ..ROSC: baseAddress
 
 const regAddress = baseAddress + 0x000000000000000c
 @regdef struct DORMANTStruct(regAddress)
-	_:32
+	DORMANT:32
 end
 const Reg = DORMANTStruct
 

@@ -256,7 +256,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000010
 @regdef struct TXF0Struct(regAddress)
-	_:32
+	TXF0:32
 end
 const Reg = TXF0Struct
 
@@ -274,7 +274,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000014
 @regdef struct TXF1Struct(regAddress)
-	_:32
+	TXF1:32
 end
 const Reg = TXF1Struct
 
@@ -292,7 +292,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000018
 @regdef struct TXF2Struct(regAddress)
-	_:32
+	TXF2:32
 end
 const Reg = TXF2Struct
 
@@ -310,7 +310,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x000000000000001c
 @regdef struct TXF3Struct(regAddress)
-	_:32
+	TXF3:32
 end
 const Reg = TXF3Struct
 
@@ -328,7 +328,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000020
 @regdef struct RXF0Struct(regAddress)
-	_:32
+	RXF0:32
 end
 const Reg = RXF0Struct
 
@@ -346,7 +346,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000024
 @regdef struct RXF1Struct(regAddress)
-	_:32
+	RXF1:32
 end
 const Reg = RXF1Struct
 
@@ -364,7 +364,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000028
 @regdef struct RXF2Struct(regAddress)
-	_:32
+	RXF2:32
 end
 const Reg = RXF2Struct
 
@@ -382,7 +382,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x000000000000002c
 @regdef struct RXF3Struct(regAddress)
-	_:32
+	RXF3:32
 end
 const Reg = RXF3Struct
 
@@ -460,7 +460,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000038
 @regdef struct INPUT_SYNC_BYPASSStruct(regAddress)
-	_:32
+	INPUT_SYNC_BYPASS:32
 end
 const Reg = INPUT_SYNC_BYPASSStruct
 
@@ -478,7 +478,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x000000000000003c
 @regdef struct DBG_PADOUTStruct(regAddress)
-	_:32
+	DBG_PADOUT:32
 end
 const Reg = DBG_PADOUTStruct
 
@@ -496,7 +496,7 @@ using ..PIO0: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000040
 @regdef struct DBG_PADOEStruct(regAddress)
-	_:32
+	DBG_PADOE:32
 end
 const Reg = DBG_PADOEStruct
 

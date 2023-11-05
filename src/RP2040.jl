@@ -14,5 +14,6 @@ Copyright (c) 2020 Raspberry Pi (Trading) Ltd.\n
 using MCUCommon: Register, Field
 
 include("peripherals.jl")
+include("gpio.jl")
 
 end # module

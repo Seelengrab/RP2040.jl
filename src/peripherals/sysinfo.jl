@@ -94,7 +94,7 @@ using ..SYSINFO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000040
 @regdef struct GITREF_RP2040Struct(regAddress)
-	_:32
+	GITREF_RP2040:32
 end
 const Reg = GITREF_RP2040Struct
 

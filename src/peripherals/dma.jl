@@ -21,7 +21,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000000
 @regdef struct CH0_READ_ADDRStruct(regAddress)
-	_:32
+	CH0_READ_ADDR:32
 end
 const Reg = CH0_READ_ADDRStruct
 
@@ -41,7 +41,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000004
 @regdef struct CH0_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH0_WRITE_ADDR:32
 end
 const Reg = CH0_WRITE_ADDRStruct
 
@@ -67,7 +67,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000008
 @regdef struct CH0_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH0_TRANS_COUNT:32
 end
 const Reg = CH0_TRANS_COUNTStruct
 
@@ -259,7 +259,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000010
 @regdef struct CH0_AL1_CTRLStruct(regAddress)
-	_:32
+	CH0_AL1_CTRL:32
 end
 const Reg = CH0_AL1_CTRLStruct
 
@@ -277,7 +277,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000014
 @regdef struct CH0_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH0_AL1_READ_ADDR:32
 end
 const Reg = CH0_AL1_READ_ADDRStruct
 
@@ -295,7 +295,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000018
 @regdef struct CH0_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH0_AL1_WRITE_ADDR:32
 end
 const Reg = CH0_AL1_WRITE_ADDRStruct
 
@@ -317,7 +317,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000001c
 @regdef struct CH0_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH0_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH0_AL1_TRANS_COUNT_TRIGStruct
 
@@ -335,7 +335,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000020
 @regdef struct CH0_AL2_CTRLStruct(regAddress)
-	_:32
+	CH0_AL2_CTRL:32
 end
 const Reg = CH0_AL2_CTRLStruct
 
@@ -353,7 +353,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000024
 @regdef struct CH0_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH0_AL2_TRANS_COUNT:32
 end
 const Reg = CH0_AL2_TRANS_COUNTStruct
 
@@ -371,7 +371,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000028
 @regdef struct CH0_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH0_AL2_READ_ADDR:32
 end
 const Reg = CH0_AL2_READ_ADDRStruct
 
@@ -393,7 +393,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000002c
 @regdef struct CH0_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH0_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH0_AL2_WRITE_ADDR_TRIGStruct
 
@@ -411,7 +411,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000030
 @regdef struct CH0_AL3_CTRLStruct(regAddress)
-	_:32
+	CH0_AL3_CTRL:32
 end
 const Reg = CH0_AL3_CTRLStruct
 
@@ -429,7 +429,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000034
 @regdef struct CH0_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH0_AL3_WRITE_ADDR:32
 end
 const Reg = CH0_AL3_WRITE_ADDRStruct
 
@@ -447,7 +447,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000038
 @regdef struct CH0_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH0_AL3_TRANS_COUNT:32
 end
 const Reg = CH0_AL3_TRANS_COUNTStruct
 
@@ -469,7 +469,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000003c
 @regdef struct CH0_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH0_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH0_AL3_READ_ADDR_TRIGStruct
 
@@ -489,7 +489,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000040
 @regdef struct CH1_READ_ADDRStruct(regAddress)
-	_:32
+	CH1_READ_ADDR:32
 end
 const Reg = CH1_READ_ADDRStruct
 
@@ -509,7 +509,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000044
 @regdef struct CH1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH1_WRITE_ADDR:32
 end
 const Reg = CH1_WRITE_ADDRStruct
 
@@ -535,7 +535,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000048
 @regdef struct CH1_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH1_TRANS_COUNT:32
 end
 const Reg = CH1_TRANS_COUNTStruct
 
@@ -727,7 +727,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000050
 @regdef struct CH1_AL1_CTRLStruct(regAddress)
-	_:32
+	CH1_AL1_CTRL:32
 end
 const Reg = CH1_AL1_CTRLStruct
 
@@ -745,7 +745,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000054
 @regdef struct CH1_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH1_AL1_READ_ADDR:32
 end
 const Reg = CH1_AL1_READ_ADDRStruct
 
@@ -763,7 +763,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000058
 @regdef struct CH1_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH1_AL1_WRITE_ADDR:32
 end
 const Reg = CH1_AL1_WRITE_ADDRStruct
 
@@ -785,7 +785,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000005c
 @regdef struct CH1_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH1_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH1_AL1_TRANS_COUNT_TRIGStruct
 
@@ -803,7 +803,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000060
 @regdef struct CH1_AL2_CTRLStruct(regAddress)
-	_:32
+	CH1_AL2_CTRL:32
 end
 const Reg = CH1_AL2_CTRLStruct
 
@@ -821,7 +821,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000064
 @regdef struct CH1_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH1_AL2_TRANS_COUNT:32
 end
 const Reg = CH1_AL2_TRANS_COUNTStruct
 
@@ -839,7 +839,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000068
 @regdef struct CH1_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH1_AL2_READ_ADDR:32
 end
 const Reg = CH1_AL2_READ_ADDRStruct
 
@@ -861,7 +861,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000006c
 @regdef struct CH1_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH1_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH1_AL2_WRITE_ADDR_TRIGStruct
 
@@ -879,7 +879,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000070
 @regdef struct CH1_AL3_CTRLStruct(regAddress)
-	_:32
+	CH1_AL3_CTRL:32
 end
 const Reg = CH1_AL3_CTRLStruct
 
@@ -897,7 +897,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000074
 @regdef struct CH1_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH1_AL3_WRITE_ADDR:32
 end
 const Reg = CH1_AL3_WRITE_ADDRStruct
 
@@ -915,7 +915,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000078
 @regdef struct CH1_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH1_AL3_TRANS_COUNT:32
 end
 const Reg = CH1_AL3_TRANS_COUNTStruct
 
@@ -937,7 +937,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000007c
 @regdef struct CH1_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH1_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH1_AL3_READ_ADDR_TRIGStruct
 
@@ -957,7 +957,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000080
 @regdef struct CH2_READ_ADDRStruct(regAddress)
-	_:32
+	CH2_READ_ADDR:32
 end
 const Reg = CH2_READ_ADDRStruct
 
@@ -977,7 +977,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000084
 @regdef struct CH2_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH2_WRITE_ADDR:32
 end
 const Reg = CH2_WRITE_ADDRStruct
 
@@ -1003,7 +1003,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000088
 @regdef struct CH2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH2_TRANS_COUNT:32
 end
 const Reg = CH2_TRANS_COUNTStruct
 
@@ -1195,7 +1195,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000090
 @regdef struct CH2_AL1_CTRLStruct(regAddress)
-	_:32
+	CH2_AL1_CTRL:32
 end
 const Reg = CH2_AL1_CTRLStruct
 
@@ -1213,7 +1213,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000094
 @regdef struct CH2_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH2_AL1_READ_ADDR:32
 end
 const Reg = CH2_AL1_READ_ADDRStruct
 
@@ -1231,7 +1231,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000098
 @regdef struct CH2_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH2_AL1_WRITE_ADDR:32
 end
 const Reg = CH2_AL1_WRITE_ADDRStruct
 
@@ -1253,7 +1253,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000009c
 @regdef struct CH2_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH2_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH2_AL1_TRANS_COUNT_TRIGStruct
 
@@ -1271,7 +1271,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000a0
 @regdef struct CH2_AL2_CTRLStruct(regAddress)
-	_:32
+	CH2_AL2_CTRL:32
 end
 const Reg = CH2_AL2_CTRLStruct
 
@@ -1289,7 +1289,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000a4
 @regdef struct CH2_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH2_AL2_TRANS_COUNT:32
 end
 const Reg = CH2_AL2_TRANS_COUNTStruct
 
@@ -1307,7 +1307,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000a8
 @regdef struct CH2_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH2_AL2_READ_ADDR:32
 end
 const Reg = CH2_AL2_READ_ADDRStruct
 
@@ -1329,7 +1329,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000ac
 @regdef struct CH2_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH2_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH2_AL2_WRITE_ADDR_TRIGStruct
 
@@ -1347,7 +1347,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000b0
 @regdef struct CH2_AL3_CTRLStruct(regAddress)
-	_:32
+	CH2_AL3_CTRL:32
 end
 const Reg = CH2_AL3_CTRLStruct
 
@@ -1365,7 +1365,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000b4
 @regdef struct CH2_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH2_AL3_WRITE_ADDR:32
 end
 const Reg = CH2_AL3_WRITE_ADDRStruct
 
@@ -1383,7 +1383,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000b8
 @regdef struct CH2_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH2_AL3_TRANS_COUNT:32
 end
 const Reg = CH2_AL3_TRANS_COUNTStruct
 
@@ -1405,7 +1405,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000bc
 @regdef struct CH2_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH2_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH2_AL3_READ_ADDR_TRIGStruct
 
@@ -1425,7 +1425,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000c0
 @regdef struct CH3_READ_ADDRStruct(regAddress)
-	_:32
+	CH3_READ_ADDR:32
 end
 const Reg = CH3_READ_ADDRStruct
 
@@ -1445,7 +1445,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000c4
 @regdef struct CH3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH3_WRITE_ADDR:32
 end
 const Reg = CH3_WRITE_ADDRStruct
 
@@ -1471,7 +1471,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000c8
 @regdef struct CH3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH3_TRANS_COUNT:32
 end
 const Reg = CH3_TRANS_COUNTStruct
 
@@ -1663,7 +1663,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000d0
 @regdef struct CH3_AL1_CTRLStruct(regAddress)
-	_:32
+	CH3_AL1_CTRL:32
 end
 const Reg = CH3_AL1_CTRLStruct
 
@@ -1681,7 +1681,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000d4
 @regdef struct CH3_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH3_AL1_READ_ADDR:32
 end
 const Reg = CH3_AL1_READ_ADDRStruct
 
@@ -1699,7 +1699,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000d8
 @regdef struct CH3_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH3_AL1_WRITE_ADDR:32
 end
 const Reg = CH3_AL1_WRITE_ADDRStruct
 
@@ -1721,7 +1721,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000dc
 @regdef struct CH3_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH3_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH3_AL1_TRANS_COUNT_TRIGStruct
 
@@ -1739,7 +1739,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000e0
 @regdef struct CH3_AL2_CTRLStruct(regAddress)
-	_:32
+	CH3_AL2_CTRL:32
 end
 const Reg = CH3_AL2_CTRLStruct
 
@@ -1757,7 +1757,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000e4
 @regdef struct CH3_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH3_AL2_TRANS_COUNT:32
 end
 const Reg = CH3_AL2_TRANS_COUNTStruct
 
@@ -1775,7 +1775,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000e8
 @regdef struct CH3_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH3_AL2_READ_ADDR:32
 end
 const Reg = CH3_AL2_READ_ADDRStruct
 
@@ -1797,7 +1797,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000ec
 @regdef struct CH3_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH3_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH3_AL2_WRITE_ADDR_TRIGStruct
 
@@ -1815,7 +1815,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000f0
 @regdef struct CH3_AL3_CTRLStruct(regAddress)
-	_:32
+	CH3_AL3_CTRL:32
 end
 const Reg = CH3_AL3_CTRLStruct
 
@@ -1833,7 +1833,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000f4
 @regdef struct CH3_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH3_AL3_WRITE_ADDR:32
 end
 const Reg = CH3_AL3_WRITE_ADDRStruct
 
@@ -1851,7 +1851,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000f8
 @regdef struct CH3_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH3_AL3_TRANS_COUNT:32
 end
 const Reg = CH3_AL3_TRANS_COUNTStruct
 
@@ -1873,7 +1873,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000fc
 @regdef struct CH3_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH3_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH3_AL3_READ_ADDR_TRIGStruct
 
@@ -1893,7 +1893,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000100
 @regdef struct CH4_READ_ADDRStruct(regAddress)
-	_:32
+	CH4_READ_ADDR:32
 end
 const Reg = CH4_READ_ADDRStruct
 
@@ -1913,7 +1913,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000104
 @regdef struct CH4_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH4_WRITE_ADDR:32
 end
 const Reg = CH4_WRITE_ADDRStruct
 
@@ -1939,7 +1939,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000108
 @regdef struct CH4_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH4_TRANS_COUNT:32
 end
 const Reg = CH4_TRANS_COUNTStruct
 
@@ -2131,7 +2131,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000110
 @regdef struct CH4_AL1_CTRLStruct(regAddress)
-	_:32
+	CH4_AL1_CTRL:32
 end
 const Reg = CH4_AL1_CTRLStruct
 
@@ -2149,7 +2149,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000114
 @regdef struct CH4_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH4_AL1_READ_ADDR:32
 end
 const Reg = CH4_AL1_READ_ADDRStruct
 
@@ -2167,7 +2167,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000118
 @regdef struct CH4_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH4_AL1_WRITE_ADDR:32
 end
 const Reg = CH4_AL1_WRITE_ADDRStruct
 
@@ -2189,7 +2189,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000011c
 @regdef struct CH4_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH4_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH4_AL1_TRANS_COUNT_TRIGStruct
 
@@ -2207,7 +2207,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000120
 @regdef struct CH4_AL2_CTRLStruct(regAddress)
-	_:32
+	CH4_AL2_CTRL:32
 end
 const Reg = CH4_AL2_CTRLStruct
 
@@ -2225,7 +2225,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000124
 @regdef struct CH4_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH4_AL2_TRANS_COUNT:32
 end
 const Reg = CH4_AL2_TRANS_COUNTStruct
 
@@ -2243,7 +2243,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000128
 @regdef struct CH4_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH4_AL2_READ_ADDR:32
 end
 const Reg = CH4_AL2_READ_ADDRStruct
 
@@ -2265,7 +2265,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000012c
 @regdef struct CH4_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH4_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH4_AL2_WRITE_ADDR_TRIGStruct
 
@@ -2283,7 +2283,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000130
 @regdef struct CH4_AL3_CTRLStruct(regAddress)
-	_:32
+	CH4_AL3_CTRL:32
 end
 const Reg = CH4_AL3_CTRLStruct
 
@@ -2301,7 +2301,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000134
 @regdef struct CH4_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH4_AL3_WRITE_ADDR:32
 end
 const Reg = CH4_AL3_WRITE_ADDRStruct
 
@@ -2319,7 +2319,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000138
 @regdef struct CH4_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH4_AL3_TRANS_COUNT:32
 end
 const Reg = CH4_AL3_TRANS_COUNTStruct
 
@@ -2341,7 +2341,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000013c
 @regdef struct CH4_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH4_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH4_AL3_READ_ADDR_TRIGStruct
 
@@ -2361,7 +2361,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000140
 @regdef struct CH5_READ_ADDRStruct(regAddress)
-	_:32
+	CH5_READ_ADDR:32
 end
 const Reg = CH5_READ_ADDRStruct
 
@@ -2381,7 +2381,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000144
 @regdef struct CH5_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH5_WRITE_ADDR:32
 end
 const Reg = CH5_WRITE_ADDRStruct
 
@@ -2407,7 +2407,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000148
 @regdef struct CH5_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH5_TRANS_COUNT:32
 end
 const Reg = CH5_TRANS_COUNTStruct
 
@@ -2599,7 +2599,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000150
 @regdef struct CH5_AL1_CTRLStruct(regAddress)
-	_:32
+	CH5_AL1_CTRL:32
 end
 const Reg = CH5_AL1_CTRLStruct
 
@@ -2617,7 +2617,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000154
 @regdef struct CH5_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH5_AL1_READ_ADDR:32
 end
 const Reg = CH5_AL1_READ_ADDRStruct
 
@@ -2635,7 +2635,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000158
 @regdef struct CH5_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH5_AL1_WRITE_ADDR:32
 end
 const Reg = CH5_AL1_WRITE_ADDRStruct
 
@@ -2657,7 +2657,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000015c
 @regdef struct CH5_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH5_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH5_AL1_TRANS_COUNT_TRIGStruct
 
@@ -2675,7 +2675,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000160
 @regdef struct CH5_AL2_CTRLStruct(regAddress)
-	_:32
+	CH5_AL2_CTRL:32
 end
 const Reg = CH5_AL2_CTRLStruct
 
@@ -2693,7 +2693,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000164
 @regdef struct CH5_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH5_AL2_TRANS_COUNT:32
 end
 const Reg = CH5_AL2_TRANS_COUNTStruct
 
@@ -2711,7 +2711,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000168
 @regdef struct CH5_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH5_AL2_READ_ADDR:32
 end
 const Reg = CH5_AL2_READ_ADDRStruct
 
@@ -2733,7 +2733,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000016c
 @regdef struct CH5_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH5_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH5_AL2_WRITE_ADDR_TRIGStruct
 
@@ -2751,7 +2751,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000170
 @regdef struct CH5_AL3_CTRLStruct(regAddress)
-	_:32
+	CH5_AL3_CTRL:32
 end
 const Reg = CH5_AL3_CTRLStruct
 
@@ -2769,7 +2769,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000174
 @regdef struct CH5_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH5_AL3_WRITE_ADDR:32
 end
 const Reg = CH5_AL3_WRITE_ADDRStruct
 
@@ -2787,7 +2787,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000178
 @regdef struct CH5_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH5_AL3_TRANS_COUNT:32
 end
 const Reg = CH5_AL3_TRANS_COUNTStruct
 
@@ -2809,7 +2809,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000017c
 @regdef struct CH5_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH5_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH5_AL3_READ_ADDR_TRIGStruct
 
@@ -2829,7 +2829,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000180
 @regdef struct CH6_READ_ADDRStruct(regAddress)
-	_:32
+	CH6_READ_ADDR:32
 end
 const Reg = CH6_READ_ADDRStruct
 
@@ -2849,7 +2849,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000184
 @regdef struct CH6_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH6_WRITE_ADDR:32
 end
 const Reg = CH6_WRITE_ADDRStruct
 
@@ -2875,7 +2875,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000188
 @regdef struct CH6_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH6_TRANS_COUNT:32
 end
 const Reg = CH6_TRANS_COUNTStruct
 
@@ -3067,7 +3067,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000190
 @regdef struct CH6_AL1_CTRLStruct(regAddress)
-	_:32
+	CH6_AL1_CTRL:32
 end
 const Reg = CH6_AL1_CTRLStruct
 
@@ -3085,7 +3085,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000194
 @regdef struct CH6_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH6_AL1_READ_ADDR:32
 end
 const Reg = CH6_AL1_READ_ADDRStruct
 
@@ -3103,7 +3103,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000198
 @regdef struct CH6_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH6_AL1_WRITE_ADDR:32
 end
 const Reg = CH6_AL1_WRITE_ADDRStruct
 
@@ -3125,7 +3125,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000019c
 @regdef struct CH6_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH6_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH6_AL1_TRANS_COUNT_TRIGStruct
 
@@ -3143,7 +3143,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001a0
 @regdef struct CH6_AL2_CTRLStruct(regAddress)
-	_:32
+	CH6_AL2_CTRL:32
 end
 const Reg = CH6_AL2_CTRLStruct
 
@@ -3161,7 +3161,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001a4
 @regdef struct CH6_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH6_AL2_TRANS_COUNT:32
 end
 const Reg = CH6_AL2_TRANS_COUNTStruct
 
@@ -3179,7 +3179,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001a8
 @regdef struct CH6_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH6_AL2_READ_ADDR:32
 end
 const Reg = CH6_AL2_READ_ADDRStruct
 
@@ -3201,7 +3201,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001ac
 @regdef struct CH6_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH6_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH6_AL2_WRITE_ADDR_TRIGStruct
 
@@ -3219,7 +3219,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001b0
 @regdef struct CH6_AL3_CTRLStruct(regAddress)
-	_:32
+	CH6_AL3_CTRL:32
 end
 const Reg = CH6_AL3_CTRLStruct
 
@@ -3237,7 +3237,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001b4
 @regdef struct CH6_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH6_AL3_WRITE_ADDR:32
 end
 const Reg = CH6_AL3_WRITE_ADDRStruct
 
@@ -3255,7 +3255,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001b8
 @regdef struct CH6_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH6_AL3_TRANS_COUNT:32
 end
 const Reg = CH6_AL3_TRANS_COUNTStruct
 
@@ -3277,7 +3277,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001bc
 @regdef struct CH6_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH6_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH6_AL3_READ_ADDR_TRIGStruct
 
@@ -3297,7 +3297,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001c0
 @regdef struct CH7_READ_ADDRStruct(regAddress)
-	_:32
+	CH7_READ_ADDR:32
 end
 const Reg = CH7_READ_ADDRStruct
 
@@ -3317,7 +3317,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001c4
 @regdef struct CH7_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH7_WRITE_ADDR:32
 end
 const Reg = CH7_WRITE_ADDRStruct
 
@@ -3343,7 +3343,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001c8
 @regdef struct CH7_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH7_TRANS_COUNT:32
 end
 const Reg = CH7_TRANS_COUNTStruct
 
@@ -3535,7 +3535,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001d0
 @regdef struct CH7_AL1_CTRLStruct(regAddress)
-	_:32
+	CH7_AL1_CTRL:32
 end
 const Reg = CH7_AL1_CTRLStruct
 
@@ -3553,7 +3553,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001d4
 @regdef struct CH7_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH7_AL1_READ_ADDR:32
 end
 const Reg = CH7_AL1_READ_ADDRStruct
 
@@ -3571,7 +3571,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001d8
 @regdef struct CH7_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH7_AL1_WRITE_ADDR:32
 end
 const Reg = CH7_AL1_WRITE_ADDRStruct
 
@@ -3593,7 +3593,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001dc
 @regdef struct CH7_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH7_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH7_AL1_TRANS_COUNT_TRIGStruct
 
@@ -3611,7 +3611,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001e0
 @regdef struct CH7_AL2_CTRLStruct(regAddress)
-	_:32
+	CH7_AL2_CTRL:32
 end
 const Reg = CH7_AL2_CTRLStruct
 
@@ -3629,7 +3629,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001e4
 @regdef struct CH7_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH7_AL2_TRANS_COUNT:32
 end
 const Reg = CH7_AL2_TRANS_COUNTStruct
 
@@ -3647,7 +3647,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001e8
 @regdef struct CH7_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH7_AL2_READ_ADDR:32
 end
 const Reg = CH7_AL2_READ_ADDRStruct
 
@@ -3669,7 +3669,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001ec
 @regdef struct CH7_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH7_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH7_AL2_WRITE_ADDR_TRIGStruct
 
@@ -3687,7 +3687,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001f0
 @regdef struct CH7_AL3_CTRLStruct(regAddress)
-	_:32
+	CH7_AL3_CTRL:32
 end
 const Reg = CH7_AL3_CTRLStruct
 
@@ -3705,7 +3705,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001f4
 @regdef struct CH7_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH7_AL3_WRITE_ADDR:32
 end
 const Reg = CH7_AL3_WRITE_ADDRStruct
 
@@ -3723,7 +3723,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001f8
 @regdef struct CH7_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH7_AL3_TRANS_COUNT:32
 end
 const Reg = CH7_AL3_TRANS_COUNTStruct
 
@@ -3745,7 +3745,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000001fc
 @regdef struct CH7_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH7_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH7_AL3_READ_ADDR_TRIGStruct
 
@@ -3765,7 +3765,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000200
 @regdef struct CH8_READ_ADDRStruct(regAddress)
-	_:32
+	CH8_READ_ADDR:32
 end
 const Reg = CH8_READ_ADDRStruct
 
@@ -3785,7 +3785,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000204
 @regdef struct CH8_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH8_WRITE_ADDR:32
 end
 const Reg = CH8_WRITE_ADDRStruct
 
@@ -3811,7 +3811,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000208
 @regdef struct CH8_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH8_TRANS_COUNT:32
 end
 const Reg = CH8_TRANS_COUNTStruct
 
@@ -4003,7 +4003,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000210
 @regdef struct CH8_AL1_CTRLStruct(regAddress)
-	_:32
+	CH8_AL1_CTRL:32
 end
 const Reg = CH8_AL1_CTRLStruct
 
@@ -4021,7 +4021,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000214
 @regdef struct CH8_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH8_AL1_READ_ADDR:32
 end
 const Reg = CH8_AL1_READ_ADDRStruct
 
@@ -4039,7 +4039,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000218
 @regdef struct CH8_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH8_AL1_WRITE_ADDR:32
 end
 const Reg = CH8_AL1_WRITE_ADDRStruct
 
@@ -4061,7 +4061,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000021c
 @regdef struct CH8_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH8_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH8_AL1_TRANS_COUNT_TRIGStruct
 
@@ -4079,7 +4079,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000220
 @regdef struct CH8_AL2_CTRLStruct(regAddress)
-	_:32
+	CH8_AL2_CTRL:32
 end
 const Reg = CH8_AL2_CTRLStruct
 
@@ -4097,7 +4097,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000224
 @regdef struct CH8_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH8_AL2_TRANS_COUNT:32
 end
 const Reg = CH8_AL2_TRANS_COUNTStruct
 
@@ -4115,7 +4115,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000228
 @regdef struct CH8_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH8_AL2_READ_ADDR:32
 end
 const Reg = CH8_AL2_READ_ADDRStruct
 
@@ -4137,7 +4137,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000022c
 @regdef struct CH8_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH8_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH8_AL2_WRITE_ADDR_TRIGStruct
 
@@ -4155,7 +4155,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000230
 @regdef struct CH8_AL3_CTRLStruct(regAddress)
-	_:32
+	CH8_AL3_CTRL:32
 end
 const Reg = CH8_AL3_CTRLStruct
 
@@ -4173,7 +4173,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000234
 @regdef struct CH8_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH8_AL3_WRITE_ADDR:32
 end
 const Reg = CH8_AL3_WRITE_ADDRStruct
 
@@ -4191,7 +4191,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000238
 @regdef struct CH8_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH8_AL3_TRANS_COUNT:32
 end
 const Reg = CH8_AL3_TRANS_COUNTStruct
 
@@ -4213,7 +4213,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000023c
 @regdef struct CH8_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH8_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH8_AL3_READ_ADDR_TRIGStruct
 
@@ -4233,7 +4233,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000240
 @regdef struct CH9_READ_ADDRStruct(regAddress)
-	_:32
+	CH9_READ_ADDR:32
 end
 const Reg = CH9_READ_ADDRStruct
 
@@ -4253,7 +4253,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000244
 @regdef struct CH9_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH9_WRITE_ADDR:32
 end
 const Reg = CH9_WRITE_ADDRStruct
 
@@ -4279,7 +4279,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000248
 @regdef struct CH9_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH9_TRANS_COUNT:32
 end
 const Reg = CH9_TRANS_COUNTStruct
 
@@ -4471,7 +4471,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000250
 @regdef struct CH9_AL1_CTRLStruct(regAddress)
-	_:32
+	CH9_AL1_CTRL:32
 end
 const Reg = CH9_AL1_CTRLStruct
 
@@ -4489,7 +4489,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000254
 @regdef struct CH9_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH9_AL1_READ_ADDR:32
 end
 const Reg = CH9_AL1_READ_ADDRStruct
 
@@ -4507,7 +4507,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000258
 @regdef struct CH9_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH9_AL1_WRITE_ADDR:32
 end
 const Reg = CH9_AL1_WRITE_ADDRStruct
 
@@ -4529,7 +4529,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000025c
 @regdef struct CH9_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH9_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH9_AL1_TRANS_COUNT_TRIGStruct
 
@@ -4547,7 +4547,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000260
 @regdef struct CH9_AL2_CTRLStruct(regAddress)
-	_:32
+	CH9_AL2_CTRL:32
 end
 const Reg = CH9_AL2_CTRLStruct
 
@@ -4565,7 +4565,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000264
 @regdef struct CH9_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH9_AL2_TRANS_COUNT:32
 end
 const Reg = CH9_AL2_TRANS_COUNTStruct
 
@@ -4583,7 +4583,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000268
 @regdef struct CH9_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH9_AL2_READ_ADDR:32
 end
 const Reg = CH9_AL2_READ_ADDRStruct
 
@@ -4605,7 +4605,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000026c
 @regdef struct CH9_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH9_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH9_AL2_WRITE_ADDR_TRIGStruct
 
@@ -4623,7 +4623,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000270
 @regdef struct CH9_AL3_CTRLStruct(regAddress)
-	_:32
+	CH9_AL3_CTRL:32
 end
 const Reg = CH9_AL3_CTRLStruct
 
@@ -4641,7 +4641,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000274
 @regdef struct CH9_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH9_AL3_WRITE_ADDR:32
 end
 const Reg = CH9_AL3_WRITE_ADDRStruct
 
@@ -4659,7 +4659,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000278
 @regdef struct CH9_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH9_AL3_TRANS_COUNT:32
 end
 const Reg = CH9_AL3_TRANS_COUNTStruct
 
@@ -4681,7 +4681,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000027c
 @regdef struct CH9_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH9_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH9_AL3_READ_ADDR_TRIGStruct
 
@@ -4701,7 +4701,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000280
 @regdef struct CH10_READ_ADDRStruct(regAddress)
-	_:32
+	CH10_READ_ADDR:32
 end
 const Reg = CH10_READ_ADDRStruct
 
@@ -4721,7 +4721,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000284
 @regdef struct CH10_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH10_WRITE_ADDR:32
 end
 const Reg = CH10_WRITE_ADDRStruct
 
@@ -4747,7 +4747,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000288
 @regdef struct CH10_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH10_TRANS_COUNT:32
 end
 const Reg = CH10_TRANS_COUNTStruct
 
@@ -4939,7 +4939,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000290
 @regdef struct CH10_AL1_CTRLStruct(regAddress)
-	_:32
+	CH10_AL1_CTRL:32
 end
 const Reg = CH10_AL1_CTRLStruct
 
@@ -4957,7 +4957,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000294
 @regdef struct CH10_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH10_AL1_READ_ADDR:32
 end
 const Reg = CH10_AL1_READ_ADDRStruct
 
@@ -4975,7 +4975,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000298
 @regdef struct CH10_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH10_AL1_WRITE_ADDR:32
 end
 const Reg = CH10_AL1_WRITE_ADDRStruct
 
@@ -4997,7 +4997,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x000000000000029c
 @regdef struct CH10_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH10_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH10_AL1_TRANS_COUNT_TRIGStruct
 
@@ -5015,7 +5015,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002a0
 @regdef struct CH10_AL2_CTRLStruct(regAddress)
-	_:32
+	CH10_AL2_CTRL:32
 end
 const Reg = CH10_AL2_CTRLStruct
 
@@ -5033,7 +5033,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002a4
 @regdef struct CH10_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH10_AL2_TRANS_COUNT:32
 end
 const Reg = CH10_AL2_TRANS_COUNTStruct
 
@@ -5051,7 +5051,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002a8
 @regdef struct CH10_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH10_AL2_READ_ADDR:32
 end
 const Reg = CH10_AL2_READ_ADDRStruct
 
@@ -5073,7 +5073,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002ac
 @regdef struct CH10_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH10_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH10_AL2_WRITE_ADDR_TRIGStruct
 
@@ -5091,7 +5091,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002b0
 @regdef struct CH10_AL3_CTRLStruct(regAddress)
-	_:32
+	CH10_AL3_CTRL:32
 end
 const Reg = CH10_AL3_CTRLStruct
 
@@ -5109,7 +5109,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002b4
 @regdef struct CH10_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH10_AL3_WRITE_ADDR:32
 end
 const Reg = CH10_AL3_WRITE_ADDRStruct
 
@@ -5127,7 +5127,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002b8
 @regdef struct CH10_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH10_AL3_TRANS_COUNT:32
 end
 const Reg = CH10_AL3_TRANS_COUNTStruct
 
@@ -5149,7 +5149,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002bc
 @regdef struct CH10_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH10_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH10_AL3_READ_ADDR_TRIGStruct
 
@@ -5169,7 +5169,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002c0
 @regdef struct CH11_READ_ADDRStruct(regAddress)
-	_:32
+	CH11_READ_ADDR:32
 end
 const Reg = CH11_READ_ADDRStruct
 
@@ -5189,7 +5189,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002c4
 @regdef struct CH11_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH11_WRITE_ADDR:32
 end
 const Reg = CH11_WRITE_ADDRStruct
 
@@ -5215,7 +5215,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002c8
 @regdef struct CH11_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH11_TRANS_COUNT:32
 end
 const Reg = CH11_TRANS_COUNTStruct
 
@@ -5407,7 +5407,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002d0
 @regdef struct CH11_AL1_CTRLStruct(regAddress)
-	_:32
+	CH11_AL1_CTRL:32
 end
 const Reg = CH11_AL1_CTRLStruct
 
@@ -5425,7 +5425,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002d4
 @regdef struct CH11_AL1_READ_ADDRStruct(regAddress)
-	_:32
+	CH11_AL1_READ_ADDR:32
 end
 const Reg = CH11_AL1_READ_ADDRStruct
 
@@ -5443,7 +5443,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002d8
 @regdef struct CH11_AL1_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH11_AL1_WRITE_ADDR:32
 end
 const Reg = CH11_AL1_WRITE_ADDRStruct
 
@@ -5465,7 +5465,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002dc
 @regdef struct CH11_AL1_TRANS_COUNT_TRIGStruct(regAddress)
-	_:32
+	CH11_AL1_TRANS_COUNT_TRIG:32
 end
 const Reg = CH11_AL1_TRANS_COUNT_TRIGStruct
 
@@ -5483,7 +5483,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002e0
 @regdef struct CH11_AL2_CTRLStruct(regAddress)
-	_:32
+	CH11_AL2_CTRL:32
 end
 const Reg = CH11_AL2_CTRLStruct
 
@@ -5501,7 +5501,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002e4
 @regdef struct CH11_AL2_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH11_AL2_TRANS_COUNT:32
 end
 const Reg = CH11_AL2_TRANS_COUNTStruct
 
@@ -5519,7 +5519,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002e8
 @regdef struct CH11_AL2_READ_ADDRStruct(regAddress)
-	_:32
+	CH11_AL2_READ_ADDR:32
 end
 const Reg = CH11_AL2_READ_ADDRStruct
 
@@ -5541,7 +5541,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002ec
 @regdef struct CH11_AL2_WRITE_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH11_AL2_WRITE_ADDR_TRIG:32
 end
 const Reg = CH11_AL2_WRITE_ADDR_TRIGStruct
 
@@ -5559,7 +5559,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002f0
 @regdef struct CH11_AL3_CTRLStruct(regAddress)
-	_:32
+	CH11_AL3_CTRL:32
 end
 const Reg = CH11_AL3_CTRLStruct
 
@@ -5577,7 +5577,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002f4
 @regdef struct CH11_AL3_WRITE_ADDRStruct(regAddress)
-	_:32
+	CH11_AL3_WRITE_ADDR:32
 end
 const Reg = CH11_AL3_WRITE_ADDRStruct
 
@@ -5595,7 +5595,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002f8
 @regdef struct CH11_AL3_TRANS_COUNTStruct(regAddress)
-	_:32
+	CH11_AL3_TRANS_COUNT:32
 end
 const Reg = CH11_AL3_TRANS_COUNTStruct
 
@@ -5617,7 +5617,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000002fc
 @regdef struct CH11_AL3_READ_ADDR_TRIGStruct(regAddress)
-	_:32
+	CH11_AL3_READ_ADDR_TRIG:32
 end
 const Reg = CH11_AL3_READ_ADDR_TRIGStruct
 
@@ -6063,7 +6063,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000438
 @regdef struct SNIFF_DATAStruct(regAddress)
-	_:32
+	SNIFF_DATA:32
 end
 const Reg = SNIFF_DATAStruct
 
@@ -6203,7 +6203,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000804
 @regdef struct CH0_DBG_TCRStruct(regAddress)
-	_:32
+	CH0_DBG_TCR:32
 end
 const Reg = CH0_DBG_TCRStruct
 
@@ -6247,7 +6247,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000844
 @regdef struct CH1_DBG_TCRStruct(regAddress)
-	_:32
+	CH1_DBG_TCR:32
 end
 const Reg = CH1_DBG_TCRStruct
 
@@ -6291,7 +6291,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000884
 @regdef struct CH2_DBG_TCRStruct(regAddress)
-	_:32
+	CH2_DBG_TCR:32
 end
 const Reg = CH2_DBG_TCRStruct
 
@@ -6335,7 +6335,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000008c4
 @regdef struct CH3_DBG_TCRStruct(regAddress)
-	_:32
+	CH3_DBG_TCR:32
 end
 const Reg = CH3_DBG_TCRStruct
 
@@ -6379,7 +6379,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000904
 @regdef struct CH4_DBG_TCRStruct(regAddress)
-	_:32
+	CH4_DBG_TCR:32
 end
 const Reg = CH4_DBG_TCRStruct
 
@@ -6423,7 +6423,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000944
 @regdef struct CH5_DBG_TCRStruct(regAddress)
-	_:32
+	CH5_DBG_TCR:32
 end
 const Reg = CH5_DBG_TCRStruct
 
@@ -6467,7 +6467,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000984
 @regdef struct CH6_DBG_TCRStruct(regAddress)
-	_:32
+	CH6_DBG_TCR:32
 end
 const Reg = CH6_DBG_TCRStruct
 
@@ -6511,7 +6511,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x00000000000009c4
 @regdef struct CH7_DBG_TCRStruct(regAddress)
-	_:32
+	CH7_DBG_TCR:32
 end
 const Reg = CH7_DBG_TCRStruct
 
@@ -6555,7 +6555,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000a04
 @regdef struct CH8_DBG_TCRStruct(regAddress)
-	_:32
+	CH8_DBG_TCR:32
 end
 const Reg = CH8_DBG_TCRStruct
 
@@ -6599,7 +6599,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000a44
 @regdef struct CH9_DBG_TCRStruct(regAddress)
-	_:32
+	CH9_DBG_TCR:32
 end
 const Reg = CH9_DBG_TCRStruct
 
@@ -6643,7 +6643,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000a84
 @regdef struct CH10_DBG_TCRStruct(regAddress)
-	_:32
+	CH10_DBG_TCR:32
 end
 const Reg = CH10_DBG_TCRStruct
 
@@ -6687,7 +6687,7 @@ using ..DMA: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000ac4
 @regdef struct CH11_DBG_TCRStruct(regAddress)
-	_:32
+	CH11_DBG_TCR:32
 end
 const Reg = CH11_DBG_TCRStruct
 

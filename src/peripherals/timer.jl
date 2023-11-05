@@ -39,7 +39,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000000
 @regdef struct TIMEHWStruct(regAddress)
-	_:32
+	TIMEHW:32
 end
 const Reg = TIMEHWStruct
 
@@ -59,7 +59,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000004
 @regdef struct TIMELWStruct(regAddress)
-	_:32
+	TIMELW:32
 end
 const Reg = TIMELWStruct
 
@@ -79,7 +79,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000008
 @regdef struct TIMEHRStruct(regAddress)
-	_:32
+	TIMEHR:32
 end
 const Reg = TIMEHRStruct
 
@@ -97,7 +97,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x000000000000000c
 @regdef struct TIMELRStruct(regAddress)
-	_:32
+	TIMELR:32
 end
 const Reg = TIMELRStruct
 
@@ -121,7 +121,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000010
 @regdef struct ALARM0Struct(regAddress)
-	_:32
+	ALARM0:32
 end
 const Reg = ALARM0Struct
 
@@ -145,7 +145,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000014
 @regdef struct ALARM1Struct(regAddress)
-	_:32
+	ALARM1:32
 end
 const Reg = ALARM1Struct
 
@@ -169,7 +169,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000018
 @regdef struct ALARM2Struct(regAddress)
-	_:32
+	ALARM2:32
 end
 const Reg = ALARM2Struct
 
@@ -193,7 +193,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x000000000000001c
 @regdef struct ALARM3Struct(regAddress)
-	_:32
+	ALARM3:32
 end
 const Reg = ALARM3Struct
 
@@ -243,7 +243,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000024
 @regdef struct TIMERAWHStruct(regAddress)
-	_:32
+	TIMERAWH:32
 end
 const Reg = TIMERAWHStruct
 
@@ -261,7 +261,7 @@ using ..TIMER: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000028
 @regdef struct TIMERAWLStruct(regAddress)
-	_:32
+	TIMERAWL:32
 end
 const Reg = TIMERAWLStruct
 

@@ -23,7 +23,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000000
 @regdef struct CPUIDStruct(regAddress)
-	_:32
+	CPUID:32
 end
 const Reg = CPUIDStruct
 
@@ -599,7 +599,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000054
 @regdef struct FIFO_WRStruct(regAddress)
-	_:32
+	FIFO_WR:32
 end
 const Reg = FIFO_WRStruct
 
@@ -617,7 +617,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000058
 @regdef struct FIFO_RDStruct(regAddress)
-	_:32
+	FIFO_RD:32
 end
 const Reg = FIFO_RDStruct
 
@@ -639,7 +639,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000005c
 @regdef struct SPINLOCK_STStruct(regAddress)
-	_:32
+	SPINLOCK_ST:32
 end
 const Reg = SPINLOCK_STStruct
 
@@ -665,7 +665,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000060
 @regdef struct DIV_UDIVIDENDStruct(regAddress)
-	_:32
+	DIV_UDIVIDEND:32
 end
 const Reg = DIV_UDIVIDENDStruct
 
@@ -691,7 +691,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000064
 @regdef struct DIV_UDIVISORStruct(regAddress)
-	_:32
+	DIV_UDIVISOR:32
 end
 const Reg = DIV_UDIVISORStruct
 
@@ -711,7 +711,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000068
 @regdef struct DIV_SDIVIDENDStruct(regAddress)
-	_:32
+	DIV_SDIVIDEND:32
 end
 const Reg = DIV_SDIVIDENDStruct
 
@@ -731,7 +731,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000006c
 @regdef struct DIV_SDIVISORStruct(regAddress)
-	_:32
+	DIV_SDIVISOR:32
 end
 const Reg = DIV_SDIVISORStruct
 
@@ -761,7 +761,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000070
 @regdef struct DIV_QUOTIENTStruct(regAddress)
-	_:32
+	DIV_QUOTIENT:32
 end
 const Reg = DIV_QUOTIENTStruct
 
@@ -787,7 +787,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000074
 @regdef struct DIV_REMAINDERStruct(regAddress)
-	_:32
+	DIV_REMAINDER:32
 end
 const Reg = DIV_REMAINDERStruct
 
@@ -853,7 +853,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000080
 @regdef struct INTERP0_ACCUM0Struct(regAddress)
-	_:32
+	INTERP0_ACCUM0:32
 end
 const Reg = INTERP0_ACCUM0Struct
 
@@ -871,7 +871,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000084
 @regdef struct INTERP0_ACCUM1Struct(regAddress)
-	_:32
+	INTERP0_ACCUM1:32
 end
 const Reg = INTERP0_ACCUM1Struct
 
@@ -889,7 +889,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000088
 @regdef struct INTERP0_BASE0Struct(regAddress)
-	_:32
+	INTERP0_BASE0:32
 end
 const Reg = INTERP0_BASE0Struct
 
@@ -907,7 +907,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000008c
 @regdef struct INTERP0_BASE1Struct(regAddress)
-	_:32
+	INTERP0_BASE1:32
 end
 const Reg = INTERP0_BASE1Struct
 
@@ -925,7 +925,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000090
 @regdef struct INTERP0_BASE2Struct(regAddress)
-	_:32
+	INTERP0_BASE2:32
 end
 const Reg = INTERP0_BASE2Struct
 
@@ -943,7 +943,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000094
 @regdef struct INTERP0_POP_LANE0Struct(regAddress)
-	_:32
+	INTERP0_POP_LANE0:32
 end
 const Reg = INTERP0_POP_LANE0Struct
 
@@ -961,7 +961,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000098
 @regdef struct INTERP0_POP_LANE1Struct(regAddress)
-	_:32
+	INTERP0_POP_LANE1:32
 end
 const Reg = INTERP0_POP_LANE1Struct
 
@@ -979,7 +979,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000009c
 @regdef struct INTERP0_POP_FULLStruct(regAddress)
-	_:32
+	INTERP0_POP_FULL:32
 end
 const Reg = INTERP0_POP_FULLStruct
 
@@ -997,7 +997,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000a0
 @regdef struct INTERP0_PEEK_LANE0Struct(regAddress)
-	_:32
+	INTERP0_PEEK_LANE0:32
 end
 const Reg = INTERP0_PEEK_LANE0Struct
 
@@ -1015,7 +1015,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000a4
 @regdef struct INTERP0_PEEK_LANE1Struct(regAddress)
-	_:32
+	INTERP0_PEEK_LANE1:32
 end
 const Reg = INTERP0_PEEK_LANE1Struct
 
@@ -1033,7 +1033,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000a8
 @regdef struct INTERP0_PEEK_FULLStruct(regAddress)
-	_:32
+	INTERP0_PEEK_FULL:32
 end
 const Reg = INTERP0_PEEK_FULLStruct
 
@@ -1338,7 +1338,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000bc
 @regdef struct INTERP0_BASE_1AND0Struct(regAddress)
-	_:32
+	INTERP0_BASE_1AND0:32
 end
 const Reg = INTERP0_BASE_1AND0Struct
 
@@ -1356,7 +1356,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000c0
 @regdef struct INTERP1_ACCUM0Struct(regAddress)
-	_:32
+	INTERP1_ACCUM0:32
 end
 const Reg = INTERP1_ACCUM0Struct
 
@@ -1374,7 +1374,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000c4
 @regdef struct INTERP1_ACCUM1Struct(regAddress)
-	_:32
+	INTERP1_ACCUM1:32
 end
 const Reg = INTERP1_ACCUM1Struct
 
@@ -1392,7 +1392,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000c8
 @regdef struct INTERP1_BASE0Struct(regAddress)
-	_:32
+	INTERP1_BASE0:32
 end
 const Reg = INTERP1_BASE0Struct
 
@@ -1410,7 +1410,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000cc
 @regdef struct INTERP1_BASE1Struct(regAddress)
-	_:32
+	INTERP1_BASE1:32
 end
 const Reg = INTERP1_BASE1Struct
 
@@ -1428,7 +1428,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000d0
 @regdef struct INTERP1_BASE2Struct(regAddress)
-	_:32
+	INTERP1_BASE2:32
 end
 const Reg = INTERP1_BASE2Struct
 
@@ -1446,7 +1446,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000d4
 @regdef struct INTERP1_POP_LANE0Struct(regAddress)
-	_:32
+	INTERP1_POP_LANE0:32
 end
 const Reg = INTERP1_POP_LANE0Struct
 
@@ -1464,7 +1464,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000d8
 @regdef struct INTERP1_POP_LANE1Struct(regAddress)
-	_:32
+	INTERP1_POP_LANE1:32
 end
 const Reg = INTERP1_POP_LANE1Struct
 
@@ -1482,7 +1482,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000dc
 @regdef struct INTERP1_POP_FULLStruct(regAddress)
-	_:32
+	INTERP1_POP_FULL:32
 end
 const Reg = INTERP1_POP_FULLStruct
 
@@ -1500,7 +1500,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000e0
 @regdef struct INTERP1_PEEK_LANE0Struct(regAddress)
-	_:32
+	INTERP1_PEEK_LANE0:32
 end
 const Reg = INTERP1_PEEK_LANE0Struct
 
@@ -1518,7 +1518,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000e4
 @regdef struct INTERP1_PEEK_LANE1Struct(regAddress)
-	_:32
+	INTERP1_PEEK_LANE1:32
 end
 const Reg = INTERP1_PEEK_LANE1Struct
 
@@ -1536,7 +1536,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000e8
 @regdef struct INTERP1_PEEK_FULLStruct(regAddress)
-	_:32
+	INTERP1_PEEK_FULL:32
 end
 const Reg = INTERP1_PEEK_FULLStruct
 
@@ -1835,7 +1835,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x00000000000000fc
 @regdef struct INTERP1_BASE_1AND0Struct(regAddress)
-	_:32
+	INTERP1_BASE_1AND0:32
 end
 const Reg = INTERP1_BASE_1AND0Struct
 
@@ -1863,7 +1863,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000100
 @regdef struct SPINLOCK0Struct(regAddress)
-	_:32
+	SPINLOCK0:32
 end
 const Reg = SPINLOCK0Struct
 
@@ -1891,7 +1891,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000104
 @regdef struct SPINLOCK1Struct(regAddress)
-	_:32
+	SPINLOCK1:32
 end
 const Reg = SPINLOCK1Struct
 
@@ -1919,7 +1919,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000108
 @regdef struct SPINLOCK2Struct(regAddress)
-	_:32
+	SPINLOCK2:32
 end
 const Reg = SPINLOCK2Struct
 
@@ -1947,7 +1947,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000010c
 @regdef struct SPINLOCK3Struct(regAddress)
-	_:32
+	SPINLOCK3:32
 end
 const Reg = SPINLOCK3Struct
 
@@ -1975,7 +1975,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000110
 @regdef struct SPINLOCK4Struct(regAddress)
-	_:32
+	SPINLOCK4:32
 end
 const Reg = SPINLOCK4Struct
 
@@ -2003,7 +2003,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000114
 @regdef struct SPINLOCK5Struct(regAddress)
-	_:32
+	SPINLOCK5:32
 end
 const Reg = SPINLOCK5Struct
 
@@ -2031,7 +2031,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000118
 @regdef struct SPINLOCK6Struct(regAddress)
-	_:32
+	SPINLOCK6:32
 end
 const Reg = SPINLOCK6Struct
 
@@ -2059,7 +2059,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000011c
 @regdef struct SPINLOCK7Struct(regAddress)
-	_:32
+	SPINLOCK7:32
 end
 const Reg = SPINLOCK7Struct
 
@@ -2087,7 +2087,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000120
 @regdef struct SPINLOCK8Struct(regAddress)
-	_:32
+	SPINLOCK8:32
 end
 const Reg = SPINLOCK8Struct
 
@@ -2115,7 +2115,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000124
 @regdef struct SPINLOCK9Struct(regAddress)
-	_:32
+	SPINLOCK9:32
 end
 const Reg = SPINLOCK9Struct
 
@@ -2143,7 +2143,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000128
 @regdef struct SPINLOCK10Struct(regAddress)
-	_:32
+	SPINLOCK10:32
 end
 const Reg = SPINLOCK10Struct
 
@@ -2171,7 +2171,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000012c
 @regdef struct SPINLOCK11Struct(regAddress)
-	_:32
+	SPINLOCK11:32
 end
 const Reg = SPINLOCK11Struct
 
@@ -2199,7 +2199,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000130
 @regdef struct SPINLOCK12Struct(regAddress)
-	_:32
+	SPINLOCK12:32
 end
 const Reg = SPINLOCK12Struct
 
@@ -2227,7 +2227,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000134
 @regdef struct SPINLOCK13Struct(regAddress)
-	_:32
+	SPINLOCK13:32
 end
 const Reg = SPINLOCK13Struct
 
@@ -2255,7 +2255,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000138
 @regdef struct SPINLOCK14Struct(regAddress)
-	_:32
+	SPINLOCK14:32
 end
 const Reg = SPINLOCK14Struct
 
@@ -2283,7 +2283,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000013c
 @regdef struct SPINLOCK15Struct(regAddress)
-	_:32
+	SPINLOCK15:32
 end
 const Reg = SPINLOCK15Struct
 
@@ -2311,7 +2311,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000140
 @regdef struct SPINLOCK16Struct(regAddress)
-	_:32
+	SPINLOCK16:32
 end
 const Reg = SPINLOCK16Struct
 
@@ -2339,7 +2339,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000144
 @regdef struct SPINLOCK17Struct(regAddress)
-	_:32
+	SPINLOCK17:32
 end
 const Reg = SPINLOCK17Struct
 
@@ -2367,7 +2367,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000148
 @regdef struct SPINLOCK18Struct(regAddress)
-	_:32
+	SPINLOCK18:32
 end
 const Reg = SPINLOCK18Struct
 
@@ -2395,7 +2395,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000014c
 @regdef struct SPINLOCK19Struct(regAddress)
-	_:32
+	SPINLOCK19:32
 end
 const Reg = SPINLOCK19Struct
 
@@ -2423,7 +2423,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000150
 @regdef struct SPINLOCK20Struct(regAddress)
-	_:32
+	SPINLOCK20:32
 end
 const Reg = SPINLOCK20Struct
 
@@ -2451,7 +2451,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000154
 @regdef struct SPINLOCK21Struct(regAddress)
-	_:32
+	SPINLOCK21:32
 end
 const Reg = SPINLOCK21Struct
 
@@ -2479,7 +2479,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000158
 @regdef struct SPINLOCK22Struct(regAddress)
-	_:32
+	SPINLOCK22:32
 end
 const Reg = SPINLOCK22Struct
 
@@ -2507,7 +2507,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000015c
 @regdef struct SPINLOCK23Struct(regAddress)
-	_:32
+	SPINLOCK23:32
 end
 const Reg = SPINLOCK23Struct
 
@@ -2535,7 +2535,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000160
 @regdef struct SPINLOCK24Struct(regAddress)
-	_:32
+	SPINLOCK24:32
 end
 const Reg = SPINLOCK24Struct
 
@@ -2563,7 +2563,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000164
 @regdef struct SPINLOCK25Struct(regAddress)
-	_:32
+	SPINLOCK25:32
 end
 const Reg = SPINLOCK25Struct
 
@@ -2591,7 +2591,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000168
 @regdef struct SPINLOCK26Struct(regAddress)
-	_:32
+	SPINLOCK26:32
 end
 const Reg = SPINLOCK26Struct
 
@@ -2619,7 +2619,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000016c
 @regdef struct SPINLOCK27Struct(regAddress)
-	_:32
+	SPINLOCK27:32
 end
 const Reg = SPINLOCK27Struct
 
@@ -2647,7 +2647,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000170
 @regdef struct SPINLOCK28Struct(regAddress)
-	_:32
+	SPINLOCK28:32
 end
 const Reg = SPINLOCK28Struct
 
@@ -2675,7 +2675,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000174
 @regdef struct SPINLOCK29Struct(regAddress)
-	_:32
+	SPINLOCK29:32
 end
 const Reg = SPINLOCK29Struct
 
@@ -2703,7 +2703,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x0000000000000178
 @regdef struct SPINLOCK30Struct(regAddress)
-	_:32
+	SPINLOCK30:32
 end
 const Reg = SPINLOCK30Struct
 
@@ -2731,7 +2731,7 @@ using ..SIO: baseAddress
 
 const regAddress = baseAddress + 0x000000000000017c
 @regdef struct SPINLOCK31Struct(regAddress)
-	_:32
+	SPINLOCK31:32
 end
 const Reg = SPINLOCK31Struct
 
