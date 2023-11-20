@@ -15,5 +15,6 @@ using MCUCommon: Register, Field
 
 include("peripherals.jl")
 include("gpio.jl")
+include("pwm.jl")
 
 end # module
